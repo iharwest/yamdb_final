@@ -9,11 +9,12 @@ from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework_simplejwt.tokens import AccessToken
-
-from api_yamdb.vars import DEFAULT_EMAIL
 from reviews.models import Category, Genre, Title
 from user.models import User
 from user.serializers import TokenSerializer, UserSerializer
+
+from api_yamdb.vars import DEFAULT_EMAIL
+
 from .filters import TitleFilter
 from .pagination import YamPagination
 from .permissions import IsAdminOrReadOnly

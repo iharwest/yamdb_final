@@ -3,6 +3,7 @@ from rest_framework.validators import UniqueValidator
 
 from api_yamdb.vars import (MSG_FOR_RESERVED_NAME, MSG_FOR_USER_NOT_FOUND,
                             RESERVED_NAMES_LIST)
+
 from .models import User
 
 
