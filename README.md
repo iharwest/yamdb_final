@@ -68,4 +68,4 @@ docker-compose exec web python manage.py loaddata fixtures.json
 ----------
 Документация для API после установки доступна по адресу 
 
-```http://158.160.9.62/redoc/```
+```http://127.0.0.1/redoc/```
